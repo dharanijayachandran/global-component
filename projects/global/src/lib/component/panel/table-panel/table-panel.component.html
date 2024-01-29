@@ -1,0 +1,93 @@
+<!-- begin panel -->
+<div class="panel" style="border:0.5px solid #cccccc;"
+  [ngClass]="[ (this.expand) ? 'panel-expand': '', (this.reload) ? 'panel-loading': '', (this.panelClass) ? this.panelClass : '', (this.variant) ? 'panel-' + this.variant : 'panel-inverse' ]"
+  *ngIf="!this.remove">
+  <!-- begin panel-heading -->
+  <div class="panel-heading">
+    <div class="panel-heading-btn" *ngIf="!this.noButton">
+
+      <!-- Filter search -->
+      <ng-content select="[filterButton]"></ng-content>
+        <!-- Back button -->
+      <ng-content select="[backButton]"></ng-content>
+
+      <a href="javascript:;" i18n-matTooltip="@@ClicktoRefresh" matTooltip="Click to Refresh"
+        class="btn btn-xs btn-icon btn-circle btn-success panel-reload" (click)="panelReload()">
+        <i class="fa fa-redo"></i>
+      </a>
+
+      <ng-content select="[searchfield]"></ng-content>
+
+      <!-- Search button -->
+      <ng-content select="[searchButton]"></ng-content>
+
+      <ng-content select="[searchfieldPanel]"></ng-content>
+
+      <!-- Search button -->
+      <ng-content select="[searchButtonPanel]"></ng-content>
+
+      <a href="javascript:;" matTooltip="{{screenStatus}}"
+        class="btn btn-xs btn-icon btn-circle btn-default panel-expand" (click)="panelExpand()">
+        <i class="fa fa-expand"></i>
+      </a>
+
+
+      <!-- Download button -->
+      <ng-content select="[downloadButton]"></ng-content>
+
+     
+
+      
+      <template #ClicktoMaximize i18n='Tooltip|Click to Maximize@@clickToMaximize'>Click to Maximize
+      </template>
+      <template #ClicktoMinimize i18n='Tooltip|Click to Minimize@@clickToMinimize'>Click to Minimize
+      </template>
+
+      <ng-content select="[addNewButton]"></ng-content>
+
+      <!-- acknowloge button -->
+
+      <ng-content select="[acknowledgeButton]"></ng-content>
+
+      <!-- Reset button -->
+
+      <ng-content select="[resetButton]"></ng-content>
+
+    </div>
+    <h4 class="panel-title" *ngIf="this.name">{{ name }}</h4>
+    <!-- <ng-content select="[header]"></ng-content> -->
+  </div>
+  <!-- end panel-heading -->
+
+  <!-- begin before-body -->
+  <ng-content select="[beforeBody]"></ng-content>
+  <!-- end before-body -->
+
+  <!-- begin panel-body -->
+  <div class="panel-body" [ngClass]="[ (this.collapse) ? 'd-none': '', (this.bodyClass) ? this.bodyClass : '' ]"
+    *ngIf="!this.noBody">
+    <ng-content></ng-content>
+    <div class="panel-loader" *ngIf="this.reload"><span class="spinner-small"></span></div>
+  </div>
+  <!-- end panel-body -->
+
+  <!-- begin no-body -->
+  <ng-content select="[noBody]"></ng-content>
+  <!-- end no-body -->
+
+  <!-- begin outside-body -->
+  <ng-content select="[outsideBody]"></ng-content>
+  <!-- end outside-body -->
+
+  <!-- begin panel-footer -->
+  <div class="panel-footer" #panelFooter [hidden]="!showFooter"
+    [ngClass]="[ (this.footerClass) ? this.footerClass : '' ]">
+    <ng-content select="[footer]"></ng-content>
+  </div>
+  <!-- end panel-footer -->
+
+  <!-- begin after-footer -->
+  <ng-content select="[afterFooter]"></ng-content>
+  <!-- end after-footer -->
+</div>
+<!-- end panel -->

@@ -1,0 +1,59 @@
+/* 
+  Styles Chrome, safari, Edge scrollbar
+*/
+
+/* Scrollbar for Container starts here */
+
+.custom-scrollbar {
+    overflow: auto;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background: var(--webkit-scrollbar-thumb-background);
+    border-radius: var(--webkit-scrollbar-thumb-border-radius);
+}
+
+/* Scrollbar for Container ends here */
+
+/* 
+    Scrollbar for panel with widgets starts here
+*/
+
+/* .panel-body .custom-scrollbar {
+    overflow: visible;
+} */
+
+.panel-body .custom-scrollbar::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+/* 
+    Scrollbar for panel with widgets starts here
+*/
+
+/* 
+    Tree view styles - Tree hierarchy
+*/
+
+.e-treeview .e-fullrow {
+    height: 22px;
+}
+
+.e-list-parent.e-ul {
+    overflow: visible!important;
+    padding: 0px;
+}
+
+/* .e-list-parent.e-ul, .e-control.e-treeview {
+    overflow: visible;
+} */
+
+/* 
+    Tree view styles - Tree hierarchy ends here
+*/

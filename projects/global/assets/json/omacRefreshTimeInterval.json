@@ -1,0 +1,4 @@
+{
+    "mainDashboardRefreshTimeInterval":180000,
+    "rackMonitorRefreshTimeInterval":180000
+}

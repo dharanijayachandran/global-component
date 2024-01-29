@@ -1,0 +1,132 @@
+@font-face {
+  font-family: 'iot-icons';
+  src: url(../../fonts/iot-icons/iot-icons.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+  display: inline-block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'iot-icons' !important;
+  speak: never;
+  font-style: normal;
+  /* font-weight: normal; */
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  font-weight: 600;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 50px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.icon-current:before {
+  content: "\e90a";
+}
+.icon-frequency:before {
+  content: "\e90c";
+}
+.icon-humidity:before {
+  content: "\e90d";
+}
+.icon-power:before {
+  content: "\e90e";
+}
+.icon-voltage:before {
+  content: "\e918";
+}
+.icon-water-tap:before {
+  content: "\e90b";
+}
+.icon-access-group:before {
+  content: "\e900";
+}
+.icon-alarm:before {
+  content: "\e901";
+}
+.icon-alarms-events:before {
+  content: "\e902";
+}
+.icon-asset-data-report:before {
+  content: "\e903";
+}
+.icon-assign-menus:before {
+  content: "\e904";
+}
+.icon-data-protocol:before {
+  content: "\e905";
+}
+.icon-gateway-model:before {
+  content: "\e906";
+}
+.icon-notification-group:before {
+  content: "\e907";
+}
+.icon-raw-data-report:before {
+  content: "\e908";
+}
+.icon-service-api:before {
+  content: "\e909";
+}
+.icon-Asset-access:before {
+  content: "\e90f";
+}
+.icon-asset-management:before {
+  content: "\e910";
+}
+.icon-asset-template:before {
+  content: "\e911";
+}
+.icon-data-simulation:before {
+  content: "\e912";
+}
+.icon-device-data-writer:before {
+  content: "\e913";
+}
+.icon-device-model:before {
+  content: "\e914";
+}
+.icon-gateway:before {
+  content: "\e915";
+}
+.icon-gateway-management:before {
+  content: "\e916";
+}
+.icon-gateway-template:before {
+  content: "\e917";
+}
+.icon-fire:before {
+  content: "\e919";
+}
+.icon-humidity-percentage:before {
+  content: "\e91a";
+}
+.icon-pipe-leakage:before {
+  content: "\e91b";
+}
+.icon-plug:before {
+  content: "\e91c";
+}
+.icon-smoke:before {
+  content: "\e91d";
+}
+.icon-vertical-battery:before {
+  content: "\e91e";
+}
+.icon-export:before {
+  content: "\e91f";
+}
+.icon-left-arrow:before {
+  content: "\e920";
+}
+.icon-reload:before {
+  content: "\e921";
+}
+.icon-right-arrow:before {
+  content: "\e922";
+}

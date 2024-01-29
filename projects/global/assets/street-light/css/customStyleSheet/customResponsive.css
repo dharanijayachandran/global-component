@@ -1,0 +1,394 @@
+/* Small device */
+
+@media screen and (max-width:767px) {
+    .dragDropClass {
+        transform: none!important;
+    }
+    /* Tenant list starts here===================== */
+    div.content.show {
+        padding-left: 10px!important;
+    }
+    .content {
+        padding: 50px 10px 10px!important;
+    }
+    .edit_section {
+        display: block;
+    }
+    .padding_Form {
+        padding: 20px 20px 0;
+    }
+    .header .navbar-toggle {
+        cursor: pointer;
+    }
+    .btn.btn-primary, .btn.btn-default, .btn.btn-warning, .btn-secondary {
+        width: 100%;
+    }
+    a.btn-icon.btn-xs {
+        width: 16px;
+    }
+    .mat-paginator {
+        z-index: 999;
+    }
+    .container.mat-elevation-z8 .headerListBand {
+        height: auto;
+        padding: 10px;
+    }
+    .headerListBand .textMiddle span {
+        height: auto;
+        padding-bottom: 10px;
+        line-height: 20px;
+    }
+    .page-header {
+        font-size: 18px;
+    }
+    .m-margin-b-15px {
+        margin-bottom: 15px;
+    }
+    .form-group {
+        margin-bottom: 15px;
+    }
+    .header .navbar-brand {
+        height: 40px;
+        width: auto;
+    }
+    .header.navbar-default {
+        height: 100px!important;
+    }
+    .sidebar {
+        left: -235px;
+    }
+
+    .table-responsive .table>thead>tr>th {
+        white-space: nowrap!important;
+    }
+    .mat-paginator-page-size-select {
+        margin: 2px 4px 0 4px!important;
+    }
+    .mat-paginator-page-size {
+        align-items: flex-start!important;
+    }
+    .mat-form-field-appearance-legacy .mat-form-field-infix {
+        padding: 0px;
+        border-top: 0;
+    }
+    .mat-paginator-container {
+        justify-content: center!important;
+    }
+    /* Tenant list ends here===================== */
+    /* Login page =============================== */
+    .login.login-with-news-feed .news-feed, .register.register-with-news-feed .news-feed {
+        display: block;
+    }
+    form .field-group {
+        min-width: auto!important;
+    }
+    .login.login-with-news-feed .news-caption, .register.register-with-news-feed .news-caption {
+        padding: 0px;
+    }
+    div.content-bottom {
+        min-width: 290px!important;
+    }
+    .login-with-news-feed .news-caption .caption-title {
+        font-size: 24px!important;
+        padding-top: 25px;
+    }
+    /* Add Tenant page stats here======== */
+    .formBodyCustom1 .col-lg-6:first-child {
+        padding-right: 10px;
+    }
+    .formBodyCustom1 .col-lg-6:last-child {
+        padding-left: 10px;
+    }
+    .langndMenu {
+        margin-left: auto;
+        text-align: right;
+    }
+    .legend.m-b-15 {
+        font-size: 18px;
+    }
+    h1.page-header {
+        font-size: 20px;
+    }
+    .mat-icon-button, button.mat-icon-button {
+        line-height: 30px;
+    }
+    div.mat-paginator-container {
+        flex-direction: column;
+        max-height: 60px!important;
+        min-height: 60px!important;
+    }
+    div.mat-form-field-appearance-legacy .mat-form-field-wrapper, .mat-form-field-wrapper {
+        padding-bottom: 0px!important;
+    }
+    .mat-form-field-underline {
+        position: initial!important;
+    }
+    div.defaultPaginationBottom {
+        max-height: 80px!important;
+        min-height: 80px!important;
+        text-align: center;
+        align-items: center;
+    }
+    div.defaultPaginationBottom>.col-md-12>.pull-right {
+        margin-bottom: 10px;
+    }
+    div.m-b-75 {
+        margin-bottom: 70px;
+    }
+    div.container.mat-elevation-z8 {
+        margin-bottom: 55px;
+    }
+    .swal2-actions>button {
+        width: 100%;
+    }
+    .swal2-popup .swal2-actions button.swal2-styled.swal2-cancel {
+        margin-bottom: 15px;
+    }
+    h2.swal2-title {
+        font-size: 1.5em;
+    }
+    div.dual-list .listbox:first-child {
+        margin-right: 5px!important;
+    }
+    div.dual-list .listbox:nth-child(2) {
+        margin-left: 5px!important;
+    }
+    .dual-list .button-bar button {
+        width: 100%!important;
+        margin-bottom: 15px;
+    }
+    .nav-pills li {
+        width: 100%;
+    }
+    ul.nav.nav-pills.justify-content-start li {
+        border-left: 1px solid #dde5ed;
+    }
+    .w-190 {
+        width: 190px;
+    }
+    div.generatePinFloat {
+        float: none;
+    }
+    .mat-cell>select, .mat-cell>input, #discTable td>div>select, #discTable td>div>input {
+        width: 190px;
+    }
+    .navbar-nav .dropdown>a.userNameDispaly span {
+        width: 50px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        display: inline-block;
+    }
+    .table-responsive.secondLeveltabTable {
+        min-height: auto;
+        max-height: initial;
+    }
+    .panel-heading {
+        display: flex;
+        flex-direction: column-reverse!important;
+        justify-content: center!important;
+        align-items: center;
+    }
+    .rowBoxFirstLevelHeight {
+        overflow-y: auto;
+        min-height: initial;
+        max-height: initial;
+    }
+    .dashboardBandOverride{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:767px) and (orientation:landscape) {
+    .mat-paginator-page-size {
+        margin-top: 10px;
+    }
+    .langndMenu {
+        margin-left: 350px!important;
+        text-align: initial;
+    }
+    .nav-pills li {
+        width: auto;
+    }
+    .navbar-nav .dropdown>a.userNameDispaly span {
+        width: auto;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: auto;
+        display: inline-block;
+    }
+    .panel-heading {
+        display: block;
+    }
+    .rowBoxFirstLevelHeight {
+        overflow-y: auto;
+        min-height: initial;
+        max-height: initial;
+    }
+}
+
+/* Ipad device */
+
+@media screen and (min-width:768px) and (max-width:991.98px) {
+    /* Tenant list starts here===================== */
+    .edit_section {
+        display: block;
+    }
+    .header .navbar-brand {
+        width: 150px;
+        padding: 10px;
+        margin-right: 0px;
+    }
+    .header .navbar-form {
+        padding: 0 10px;
+    }
+    .header .navbar-nav>li .dropdown-toggle, .header .navbar-nav>li>a {
+        padding: 15px 7px;
+    }
+
+    .mat-header-row {
+        word-wrap: keep-all!important;
+    }
+    /* Tenant list ends here===================== */
+    /* Add Tenant page stats here======== */
+    .formBodyCustom1 .col-lg-6:first-child {
+        padding-right: 10px;
+    }
+    .formBodyCustom1 .col-lg-6:last-child {
+        padding-left: 10px;
+    }
+    .col-sm-6 {
+        flex: 0 0 50%!important;
+        max-width: 50%!important;
+    }
+    .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th {
+        border: transparent;
+        word-break: initial!important;
+    }
+    .langndMenu {
+        margin-left: 350px!important;
+        text-align: initial;
+    }
+    mat-paginator.mat-paginator {
+        z-index: 999;
+    }
+    .rowBoxFirstLevelHeight {
+        overflow-y: auto;
+        min-height: 85vh;
+        max-height: 85vh;
+    }
+    .firstLeveltabTable {
+        overflow-y: auto;
+        min-height: 52vh;
+        max-height: 53vh;
+    }
+}
+
+/* Ipad device */
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .langndMenu {
+        margin-left: 350px!important;
+        text-align: initial;
+    }
+    div.dual-list .listbox:first-child {
+        margin-right: 5px!important;
+    }
+    div.dual-list .listbox:nth-child(2) {
+        margin-left: 5px!important;
+    }
+    mat-paginator.mat-paginator {
+        z-index: 999;
+    }
+    .rowBoxFirstLevelHeight {
+        overflow-y: auto;
+        min-height: 82vh;
+        max-height: 82vh;
+    }
+    .firstLeveltabTable {
+        overflow-y: auto;
+        min-height: 52vh;
+        max-height: 53vh;
+    }
+}
+
+
+@media screen and (min-width:768px) and (max-width:1024px) and (orientation:landscape) {
+    .hierchy_add {
+        top: 33px;
+        right: 10px;
+    }
+}
+
+/* Ipad & Laptop */
+
+@media screen and (min-width:320px) and (max-width:1200px) {
+
+    mat-paginator.mat-paginator {
+        z-index: 999;
+    }
+    .cdk-column-action.mat-column-action {
+        white-space: nowrap;
+    }
+    .gragDropClass {
+        transform: none!important;
+    }
+    .dashboardBand {
+        height: auto!important;
+        margin-top: 0px!important;
+    }
+    div.dashboardBandOverride {
+        margin-bottom: 15px;
+    }
+    h5.selectDashboardHeadeing {
+        margin-left: 0px!important;
+        margin-bottom: 5px;
+    }
+    .noRecordFoundparentDiv {
+        display: flex;
+    }
+    .dashboardConfig {
+        left: 0px!important;
+        margin-left: 0px!important;
+        margin-top: 5px;
+    }
+    .example-boundary {
+        padding: 10px 0;
+    }
+    div.dashboardPaginationBottom {
+        max-height: 70px!important;
+        min-height: 70px!important;
+    }
+}
+
+@media screen and (min-width:1024px) and (max-width:1200px) {
+    .hierchy_add {
+        top: 13px;
+        right: 10px;
+    }
+    .gragDropClass {
+        transform: none!important;
+    }
+}
+
+@media screen and (min-width:1300px) {
+    .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th {
+        /* word-break: break-all!important; */
+        word-break: keep-all;
+    }
+    mat-paginator.mat-paginator {
+        z-index: 999;
+    }
+}
+@media screen and (min-width: 768px){
+    .firstLeveltabTable{
+        overflow-y: auto;
+        min-height: 0;
+        max-height: 370px;
+    }
+    .rowBoxFirstLevelHeight {
+        overflow-y: auto;
+        min-height: 0;
+        max-height: 82vh;
+    }
+}

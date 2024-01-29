@@ -1,0 +1,34 @@
+<!-- begin panel -->
+
+
+<div class="panel panel-inverse"  [ngClass]="[ (this.expand) ? 'panel-expand': '', (this.reload) ? 'panel-loading': '', (this.panelClass) ? this.panelClass : '', (this.variant) ? 'panel-' + this.variant : 'panel-inverse' ]" *ngIf="!this.remove">
+    
+  
+  
+    <!-- begin panel-body -->
+    <div class="panel-body"  style="width: 100%;" >
+      <ng-content>
+      </ng-content>
+    </div>
+    <!-- end panel-body -->
+  
+    <!-- begin no-body -->
+    <ng-content select="[noBody]"></ng-content>
+    <!-- end no-body -->
+  
+    <!-- begin outside-body -->
+    <ng-content select="[outsideBody]"></ng-content>
+    <!-- end outside-body -->
+  
+    <!-- begin panel-footer -->
+    <div class="panel-footer" #panelFooter [hidden]="!showFooter" [ngClass]="[ (this.footerClass) ? this.footerClass : '' ]">
+      <ng-content select="[footer]"></ng-content>
+    </div>
+    <!-- end panel-footer -->
+  
+    <!-- begin after-footer -->
+    <ng-content select="[afterFooter]"></ng-content>
+    <!-- end after-footer -->
+  </div>
+  <!-- end panel -->
+  <app-modal-notification></app-modal-notification>

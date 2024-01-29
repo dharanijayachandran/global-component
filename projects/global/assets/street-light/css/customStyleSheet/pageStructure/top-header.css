@@ -1,0 +1,157 @@
+/* Header styles ============================*/
+
+.header_language {
+  border-radius: var(--header_language-border-radius);
+  border: solid 1px var(--top-header-language-change-border)!important;
+}
+
+.header.navbar-default {
+  box-shadow: var( --header-navbar-default-box-shadow);
+  background-color: var(--top-header-bg-color);
+}
+
+.page-header-fixed {
+  padding-top: var(--page-header-fixed-padding-top);
+  height: var(--page-header-fixed-height);
+  box-sizing: var(--page-header-fixed-box-sizing);
+}
+
+.edit_section {
+  position: var(--edit_section-position);
+  float: var(--edit_section-float);
+  right: var(--edit-section-right);
+  cursor: var(--edit-section-cursor);
+  display: var(--edit-section-display);
+  z-index: var( --edit-section-z-index);
+}
+
+.form-row:hover .edit_section {
+  display: var(--form-row-hover-edit_section-display);
+}
+
+.header_search {
+  padding-top: var(--header_searchpadding-top)!important;
+}
+
+/* In top header */
+
+/* now this styels become hidden */
+
+input.search_field {
+  width: var(--input-search_field-width);
+  height: var(--input-search_field-height);
+  border-radius: var( --input-search_field-border-radius);
+  border: solid 1px var(--input-search_field-border);
+  background-color: var(--input-search_field-bg-color);
+}
+
+.search_field {
+  font-family: var(--input-search_field-font-family)!important;
+  font-size: var(--input-search_field-font-size)!important;
+  font-weight: var(--input-search_field-font-weight)!important;
+  color: var(--input-search_field-color)!important;
+  font-style: var( --input-search_field-font-style);
+  font-stretch: var(--input-search_field-font-stretch);
+  line-height: var(--input-search_field-line-height);
+  letter-spacing: var(--input-search_field-letter-spacing);
+}
+
+div.headerListBand {
+  background-color: var(--plain-panel-header-bg-color)!important;
+}
+
+/* now this styels become hidden ends here*/
+
+.navbar-nav .dropdown>a.userNameDispaly img {
+  width: var(--navbar-nav-dropdown-a-userNameDispaly-img-width);
+  height: var(--navbar-nav-dropdown-a-userNameDispaly-img-height);
+  margin: var(--navbar-nav-dropdown-a-userNameDispaly-img-margin);
+}
+
+.header .navbar-nav>li .dropdown-toggle .label {
+  top: var(--header-navbar-nav-li-dropdown-toggle-label-top);
+  right: var(--header-navbar-nav-li-dropdown-toggle-label-right);
+  font-size: var(--header-navbar-nav-li-dropdown-toggle-label-font-size);
+}
+
+.header .navbar-nav>li>a .label {
+  top: var(--header-navbar-nav-li-a-label-top);
+  right: var(--header-navbar-nav-li-a-label-right);
+  font-size: var(--header-navbar-nav-li-a-label-font-size);
+}
+
+.header .navbar-nav>li>a.header_language {
+  padding: var(--header-navbar-nav-li-a-header_language-padding);
+  margin: var(--header-navbar-nav-li-a-header_language-margin);
+  font-size: var(--header-navbar-nav-li-a-header_language-font-size);
+}
+
+.header .navbar-nav>li>a {
+  display: var(--header-navbar-nav-li-a-display);
+  text-decoration: var(--header-navbar-nav-li-a-text-decoration);
+  line-height: var(--header-navbar-nav-li-a-line-height);
+  padding: var(--header-navbar-nav-li-a-padding);
+  border: var(--header-navbar-nav-li-a-border);
+  font-family: var(--header-navbar-nav-li-a-font-family);
+}
+
+.dropdown-menu {
+  padding: var(--dropdown-menu-padding);
+}
+
+.dropdown-divider {
+  margin: var(--dropdown-divider-margin);
+}
+
+.dropdown-item {
+  padding: var(--dropdown-item-padding);
+}
+
+.dropdown-menu>li>a {
+  padding: var(--dropdown-menu-li-a-padding);
+}
+
+.dropdown-menu>.active>a {
+  background: var(--dropdown-menu-active-a-background)!important;
+  color: var(--dropdown-menu-active-a-color)!important;
+}
+
+.dropdown-menu>.active>a:focus {
+  background: var(--dropdown-menu-active-a-focus-background)!important;
+  color: var(--dropdown-menu-active-a-focus-color)!important;
+}
+
+.dropdown-menu>.active>a:hover {
+  background: var(--dropdown-menu-active-a-hover-background)!important;
+  color: var(--dropdown-menu-active-a-hover-color)!important;
+}
+
+.navbar-nav .dropdown>a.userNameDispaly span {
+  font-family: var(--navbar-nav-dropdown-a-userNameDispaly-span-font-family)!important;
+  font-size: var(--navbar-nav-dropdown-a-userNameDispaly-span-font-size);
+  font-style: var(--navbar-nav-dropdown-a-userNameDispaly-span-font-style);
+  font-stretch: var(--navbar-nav-dropdown-a-userNameDispaly-span-font-stretch);
+  line-height: var(--navbar-nav-dropdown-a-userNameDispaly-span-line-height);
+  letter-spacing: var(--navbar-nav-dropdown-a-userNameDispaly-span-letter-spacing);
+  font-weight: var(--navbar-nav-dropdown-a-userNameDispaly-span-font-weight);
+  color: var(--loggedin-user-name);
+}
+
+.caret {
+  margin-left: var(--caret-margin-left);
+  border-top: var(--caret-border-top);
+  border-right: var(--caret-border-right);
+  border-left: var(--caret-border-left);
+}
+
+
+.header .navbar-form .btn-search {
+  position: var(--header-navbar-form-btn-search-position);
+}
+
+.header .navbar-form {
+  margin: var(--header-navbar-form-margin);
+  padding: var(--header-navbar-form-padding);
+}
+
+/* Header styles  ============================*/

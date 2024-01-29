@@ -1,0 +1,15 @@
+[
+  {
+    "id": 1,
+    "name": "Empyreal",
+    "isSelected": false
+  },
+  {
+    "id": 2,
+    "name": "Default",
+    "isSelected": true
+  },
+  { "id": 3, 
+    "name": "Holidaybest",
+     "isSelected": false }
+]

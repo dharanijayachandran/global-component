@@ -1,0 +1,15 @@
+.panel-heading {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+div.panel.panel-expand .panel-body {
+    height: 100%;
+    margin-top: 39px;
+}
+
+.panel.panel-expand {
+    overflow: hidden;
+}

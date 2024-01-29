@@ -1,0 +1,67 @@
+/* Firefox */
+
+html {
+  -moz-osx-font-smoothing: var(--html-moz-osx-font-smoothing);
+}
+
+.sidebar ::placeholder {
+  color: var(--sidebar-search-field-icon-as-placeholder-firefox);
+  opacity: 1;
+}
+
+div.mat-sort-header-container {
+  -webkit-box-pack: var(--div-mat-sort-header-container-ms-flex-pack);
+}
+
+/**
+ * Firefox specific rule
+ */
+
+@-moz-document url-prefix() {
+  body, .page-header, .search_field, .sidebar .nav li.active>a, .sidebar .sub-menu li.active>a, .sidebar .nav li.active>a:focus, .sidebar .nav li.active>a:hover, .nav-pills .nav-link, .btn {
+    font-weight: lighter !important;
+  }
+  .mat-cell, .mat-footer-cell {
+    font-family: var( --font-family-regular);
+  }
+  body {
+    text-rendering: optimizeLegibility!important;
+    -webkit-font-smoothing: subpixel-antialiased!important;
+    -webkit-font-smoothing: antialiased!important;
+    -moz-osx-font-smoothing: grayscale!important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .table-responsive {
+    max-height: 390px;
+  }
+  .formReadMode p {
+    font-family: var( --font-family-regular);
+  }
+  /* 
+  scrollbar 
+*/
+  .bodyContainer {
+    scrollbar-color: #999 #bfbfbd !important;
+    scrollbar-width: thin !important;
+  }
+  .custom-scrollbar {
+    overflow: hidden!important;
+  }
+  .custom-scrollbar {
+    overflow: auto!important;
+    scrollbar-color: #999 #bfbfbd !important;
+    scrollbar-width: thin !important;
+  }
+  .panel-body .custom-scrollbar {
+    top: -17px;
+    padding: 20px 10px 20px 10px;
+    overflow: auto;
+    border: 2px solid #bfbfbd;
+  }
+  .panel-body .custom-scrollbar { 
+    border: 2px solid transparent;   
+    border-radius: 0px;
+    overflow: visible;
+  }
+}

@@ -1,0 +1,5 @@
+  
+  :root[theme='platform'] {
+    --bg-color: green;
+    --text-color: #fff;
+  }

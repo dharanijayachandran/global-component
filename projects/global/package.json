@@ -1,0 +1,33 @@
+{
+  "name": "global",
+  "version": "0.0.10",
+  "peerDependencies": {
+    "@angular/common": "15.2.9",
+    "@angular/core": "15.2.9"
+  },
+  "dependencies": {
+    "@angular/cdk": "15.2.9",
+    "@angular/localize": "15.2.9",
+    "@angular/material": "15.2.9",
+    "@ng-bootstrap/ng-bootstrap": "7.0.0",
+    "@popperjs/core": "2.11.8",
+    "@syncfusion/ej2-base": "20.4.51",
+    "angular2-multiselect-dropdown": "5.0.4",
+    "angular7-csv": "0.2.12",
+    "exceljs": "4.4.0",
+    "faker": "6.6.6",
+    "file-saver": "2.0.5",
+    "font-awesome": "4.7.0",
+    "jquery": "3.7.1",
+    "jspdf": "2.5.1",
+    "jspdf-autotable": "3.7.1",
+    "ng2-slim-loading-bar": "4.0.0",
+    "ngx-perfect-scrollbar": "10.1.1",
+    "ngx-toastr": "15.2.2",
+    "rxjs": "6.6.7",
+    "rxjs-compat": "6.6.7",
+    "sweetalert2": "10.16.9",
+    "tslib": "2.6.2",
+    "xlsx": "0.18.5"
+  }
+}

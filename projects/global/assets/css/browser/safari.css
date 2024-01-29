@@ -1,0 +1,15 @@
+html {
+    -webkit-font-smoothing: var(--html-webkit-font-smoothing);
+}
+
+.navbar-nav .dropdown>a.userNameDispaly span {
+    -webkit-font-smoothing: var(--navbar-nav-dropdown-a-userNameDispaly-span--webkit-font-smoothing);
+}
+
+/* select {
+    --select--webkit-appearance: none;
+} */
+
+div.mat-sort-header-container {
+    -webkit-box-pack: var(--div-mat-sort-header-container-webkit-box-pack);
+}

@@ -1,0 +1,32 @@
+{
+  "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
+  "dest": "../../dist/global",
+  "lib": {
+    "entryFile": "src/public-api.ts"
+  },
+  "allowedNonPeerDependencies": [
+    "@angular/cdk",
+    "@angular/localize",
+    "@angular/material",
+    "@ng-bootstrap/ng-bootstrap",
+    "@popperjs/core",
+    "@syncfusion/ej2-base",
+    "angular2-multiselect-dropdown",
+    "angular7-csv",
+    "exceljs",
+    "faker",
+    "file-saver",
+    "font-awesome",
+    "jquery",
+    "jspdf",
+    "jspdf-autotable",
+    "ng2-slim-loading-bar",
+    "ngx-perfect-scrollbar",
+    "ngx-toastr",
+    "rxjs",
+    "rxjs-compat",
+    "sweetalert2",
+    "tslib",
+    "xlsx"
+  ]
+}

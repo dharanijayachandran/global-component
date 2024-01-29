@@ -1,0 +1,87 @@
+/* Importing fonts=========== */
+
+@font-face {
+  font-family: 'Graduate-Regular';
+  src: url(../../../../assets/fonts/Graduate/Graduate-Regular.ttf);
+}
+
+
+
+@font-face {
+  font-family: 'Graduate-bold';
+  src: url(../../../../assets/fonts/Graduate/Graduate-Regular.ttf);
+}
+
+
+
+
+
+/*Medium  */
+
+
+:root {
+  /* body Background property */
+  --bg-color: #f5fcff;
+  --body-font-size: 12px;
+  --body-font-weight: 400;
+
+  /* imported fonts property */
+  --font-family-regular: 'Graduate-Regular'!important;
+  --font-family-medium: 'Graduate-bold'!important;
+ 
+
+  /* Sidebar property */
+  --sidebar-search-field-text-color: #92abcf;
+  --sidebar-search-field-border-color: #336494;
+  --sidebar-search-field-reset-border-color: #336494;
+  --sidebar-search-field-reset-close-span-color: #dde5ed;
+  --sidebar-search-field-reset-close-icon-color: #9ea5ac;
+  --sidebar-search-field-icon-as-placeholder-microsoft: #8a8a8a;
+  --sidebar-search-field-icon-as-placeholder-firefox: #8a8a8a;
+  --sidebar-search-field-bg-color: transparent;
+  --sidebar-search-field-reset-font-color: #fff;
+  --sidebar-search-field-reset-icon-color: #8a8a8a;
+  --sidebar-search-field-reset-font-size: 13px;
+  --sidebar-search-field-reset-font-weight: 500;
+  --sidebar-search-field-reset-font-family: var(--font-family-medium);
+  --sidebar-search-field-reset-bg-color: #1b1f24;
+  --sidebar-search-field-reset-hover-bg-color: #575d63;
+  --sidebar-nav-menu-list-anchor-icon-tags-active: #0091ff;
+  --sidebar-nav-menu-list-anchor-tag-color: #dde5ed;
+  --sidebar-nav-menu-list-anchor-tag-font-size: 13px!important;
+  --sidebar-nav-menu-list-anchor-tag-font-weight: 500;
+  --sidebar-nav-menu-list-anchor-tag-icon-color: #8a8a8a;
+  --sidebar-nav-menu-list-anchor-tag-icon-active-color: #0091ff;
+  --sidebar-nav-menu-list-anchor-tag-icon-font-size: 14px;
+  --sidebar-nav-menu-minified-sub-menu-firstlist-bg-color: #032d42;
+  --sidebar-nav-menu-list-active-anchor-tag-active-icon-font-size: 14px;
+  --sidebar-nav-sub-menu-list-anchor-tag-states: #0091ff;
+  --sidebar-nav-sub-menu-list-anchor-tag-states-font-weight: 500;
+  --sidebar-nav-sub-menu-ul-bg-color: #022232;
+  --sidebar-nav-sub-menu-list-anchor-tag-active-state-border-left: #0091ff;
+  --sidebar-nav-sub-menu-list-anchor-tag-active-state-bg-color: #000000;
+  --sidebar-nav-sub-menu-list-anchor-tag-text-color: #dde5ed;
+  --sidebar-nav-bg-color: #032d42;
+  --sidebar-page-with-right-sidebar-sub-menu-li-active-border-right-color: #0091ff;
+  --sidebar-page-with-right-sidebar-sub-menu-li-active-bg-color:#000000;
+  
+  /* Plain panel header property ex => Change password */
+  --plain-panel-header-text-color: white;
+  --plain-panel-header-text-font-family: var(--font-family-medium);
+  --plain-panel-header-text-font-weight: 500;
+  --plain-panel-header-text-font-size: 16px;
+  --plain-panel-header-bg-color:#2277a2;
+
+
+  /* rowbox */
+  --form-rowBox-bg-color:#f2f2f2;
+  --form-legend-color:#4b7aa2;
+  --form-formReadMode-p-color:#3076b2;
+
+  /* Top Header */
+  --top-header-bg-color:#f2f3f4;
+  --sidebar-nav-bg-color:#2d353c
+  --panel-heading-bg-color: #032d42;
+ 
+
+}

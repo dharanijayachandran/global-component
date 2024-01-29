@@ -1,0 +1,801 @@
+@import '../../css/default/bootstrap.min.css';
+@import '../../css/default/all.css';
+/* @import '../../../node_modules/font-awesome/css/font-awesome.min.css'; */
+@import '../../css/default/fullcalendar.min.css';
+/* @import '../../../../node_modules/@syncfusion/ej2-base/styles/material.css';
+@import '../../../../node_modules/@syncfusion/ej2-buttons/styles/material.css';
+@import '../../../../node_modules/@syncfusion/ej2-calendars/styles/material.css';
+@import '../../../../node_modules/@syncfusion/ej2-dropdowns/styles/material.css';
+@import '../../../../node_modules/@syncfusion/ej2-inputs/styles/material.css';
+@import '../../../../node_modules/@syncfusion/ej2-navigations/styles/material.css';
+@import '../../../../node_modules/@syncfusion/ej2-popups/styles/material.css';
+@import '../../../../node_modules/@syncfusion/ej2-splitbuttons/styles/material.css';
+@import '../../../../node_modules/@syncfusion/ej2-angular-grids/styles/material.css';
+@import "../../../../node_modules/@syncfusion/ej2-angular-layouts/styles/material.css"; */
+@import '../../css/default/style.min.css';
+@import '../../css/default/style-responsive.min.css';
+@import '../../css/default/theme/default.css';
+
+
+/* Custom styles */
+
+@import '../../css/customStyleSheet/pageStructure/top-header.css';
+@import '../../css/customStyleSheet/pageStructure/left-side-menu.css';
+@import '../../css/customStyleSheet/customStyles.css';
+@import '../../css/customStyleSheet/customResponsive.css';
+@import '../../css/customStyleSheet/commonStyleSheet.css';
+
+/* For theme creation===
+ created separete file for styels-property-value and  
+  declared in the css propert value 
+*/
+
+@import '../../css/theme/default/styles-property-value.css';
+/* Browser specific css */
+
+@import '../../css/browser/ie-microsoft-edge.css';
+@import '../../css/browser/firefox.css';
+@import '../../css/browser/safari.css';
+@import '../../css/default/Material.icon.css';
+/* @import "../../../node_modules/angular2-multiselect-droopdown/themes/default.theme.css"; */
+@import '../customStyleSheet/perfect-scrollbar.css';
+/*  
+  Custom Scrollbar
+*/
+
+@import '../../css/customStyleSheet/custom-scrollbar-styles.css';
+/* IOT -  icon files - customized*/
+
+@import '../../fonts/iot-icons/style.css';
+
+.overflow-scroll {
+  overflow: var(--overflow-scroll-overflow);
+  overflow-y: var(--overflow-scroll-overflow-y);
+  -webkit-overflow-scrolling: var(--overflow-scroll--webkit-overflow-scrolling);
+}
+
+.sidebar .sub-menu {
+  display: var(--sidebar-sub-menu-display);
+}
+
+.page-sidebar-minified .sidebar .sub-menu {
+  display: var(--page-sidebar-minified-sidebar-sub-menu-display);
+}
+
+.page-sidebar-minified .sidebar .nav li {
+  z-index: var(--page-sidebar-minified-sidebar-nav-li-z-index);
+  font-size: var(--page-sidebar-minified-sidebar-nav-li-font-size);
+}
+
+.angular-calendar-inline {
+  margin: var( --angular-calendar-inline-margin);
+}
+
+.angular-calendar-inline .cal-month-view .cal-day-cell.cal-today {
+  background: var(--angular-calendar-inline-cal-month-view-cal-day-cell-cal-today-background);
+}
+
+.angular-calendar-inline .cal-month-view .cal-day-cell.cal-today .cal-day-number {
+  background: var(--angular-calendar-inline-cal-month-view-cal-day-cell-cal-today-cal-day-number-background);
+  color: var(--angular-calendar-inline-cal-month-view-cal-day-cell-cal-today-cal-day-number-color) !important;
+}
+
+.angular-calendar-inline .cal-month-view .cal-day-cell {
+  min-height: var(--angular-calendar-inline-cal-month-view-cal-day-cell-min-height);
+}
+
+.angular-calendar-inline .cal-month-view .cal-cell-top {
+  min-height: var(--angular-calendar-inline-cal-month-view-cal-cell-top-min-height);
+}
+
+.angular-calendar-inline .cal-month-view .cal-header .cal-cell:hover {
+  background: var( --angular-calendar-inline-cal-month-view-cal-header-cal-cell-hover-background);
+}
+
+.angular-calendar-inline .cal-month-view .cal-cell-row:hover {
+  background: var(--angular-calendar-inline-cal-month-view-cal-cell-row-hover-background);
+}
+
+.angular-calendar-inline .cal-month-view .cal-day-number {
+  font-size: var(--angular-calendar-inline-cal-month-view-cal-day-number-font-size) !important;
+  font-weight: var(--angular-calendar-inline-cal-month-view-cal-day-number-font-weight);
+  opacity: var(--angular-calendar-inline-cal-month-view-cal-day-number-opacity);
+  color: var( --angular-calendar-inline-cal-month-view-cal-day-number-color);
+  margin-right: var(--angular-calendar-inline-cal-month-view-cal-day-number-margin-right);
+  margin-bottom: var(--angular-calendar-inline-cal-month-view-cal-day-number-margin-bottom);
+  margin-top: var(--angular-calendar-inline-cal-month-view-cal-day-number-margin-top);
+  min-width: var(--angular-calendar-inline-cal-month-view-cal-day-number-min-width);
+  min-height: var(--angular-calendar-inline-cal-month-view-cal-day-number-min-height);
+  border-radius: var(--angular-calendar-inline-cal-month-view-cal-day-number-border-radius);
+  text-align: var(--angular-calendar-inline-cal-month-view-cal-day-number-text-align);
+  line-height: var(--angular-calendar-inline-cal-month-view-cal-day-number-line-height);
+}
+
+.angular-calendar-inline .cal-month-view .cal-day-cell.cal-weekend .cal-day-number {
+  color: var(--angular-calendar-inline-cal-month-view-cal-day-cell-cal-weekend-cal-day-number-color);
+}
+
+.angular-calendar-inline .cal-month-view .cal-header .cal-cell {
+  font-size: var(--angular-calendar-inline-cal-month-view-cal-header-cal-cell-font-size);
+  text-transform: var(--angular-calendar-inline-cal-month-view-cal-header-cal-cell-text-transform);
+  color: var(--angular-calendar-inline-cal-month-view-cal-header-cal-cell-color);
+  padding: var(--angular-calendar-inline-cal-month-view-cal-header-cal-cell-padding);
+}
+
+.angular-calendar-inline .cal-month-view .cal-day-badge {
+  text-indent: var(--angular-calendar-inline-cal-month-view-cal-day-badge-text-indent);
+  width: var( --angular-calendar-inline-cal-month-view-cal-day-badge-width);
+  height: var(--angular-calendar-inline-cal-month-view-cal-day-badge-height);
+  min-width: var(--angular-calendar-inline-cal-month-view-cal-day-badge-min-width);
+  padding: var(--angular-calendar-inline-cal-month-view-cal-day-badge-padding);
+  overflow: var(--angular-calendar-inline-cal-month-view-cal-day-badge-overflow);
+  position: var(--angular-calendar-inline-cal-month-view-cal-day-badge-position);
+  bottom: var(--angular-calendar-inline-cal-month-view-cal-day-badge-bottom);
+  margin: var(--angular-calendar-inline-cal-month-view-cal-day-badge-margin);
+  right: var(--angular-calendar-inline-cal-month-view-cal-day-badge-right);
+  background: var(--angular-calendar-inline-cal-month-view-cal-day-badge-background);
+}
+
+.angular-calendar-inline .cal-month-view .cal-cell-top {
+  position: var(--angular-calendar-inline-cal-month-view-cal-cell-top-position);
+}
+
+.angular-calendar-inline .cal-month-view .cal-cell {
+  position: var(--angular-calendar-inline-cal-month-view-cal-cell-position);
+}
+
+.angular-calendar-inline .cal-month-view .cal-events {
+  position: var(--angular-calendar-inline-cal-month-view-cal-events-position);
+  top: var(--angular-calendar-inline-cal-month-view-cal-events-top);
+  left: var( --angular-calendar-inline-cal-month-view-cal-events-left);
+  right: var(--angular-calendar-inline-cal-month-view-cal-events-right);
+}
+
+.angular-calendar-inline .cal-month-view .cal-event {
+  width: var(--angular-calendar-inline-cal-month-view-cal-event-width);
+  height: var(--angular-calendar-inline-cal-month-view-cal-event-height);
+  border-radius: var( --angular-calendar-inline-cal-month-view-cal-event-border-radius);
+  display: var(--angular-calendar-inline-cal-month-view-cal-event-display);
+  margin: var( --angular-calendar-inline-cal-month-view-cal-event-margin);
+  background: var(--angular-calendar-inline-cal-month-view-cal-event-background);
+}
+
+.fc-event {
+  background: var(--fc-event-background);
+}
+
+.fc-event-dot {
+  background: var(--fc-event-dot-background);
+}
+
+.fc-unthemed .fc-divider {
+  background: var(--fc-unthemed-fc-divider-background);
+  color: var(--fc-unthemed-fc-divider-color);
+  font-weight: var(--fc-unthemed-fc-divider-font-weight);
+}
+
+.fc-unthemed .fc-list-heading td {
+  background: var(--fc-unthemed-fc-list-heading-td-background);
+  color: var(--fc-unthemed-fc-list-heading-td-color);
+  font-weight: var(--fc-unthemed-fc-list-heading-td-font-weight);
+}
+
+.fc-unthemed .fc-popover .fc-header {
+  background: var(--fc-unthemed-fc-popover-fc-header-background);
+  color: var(--fc-unthemed-fc-popover-fc-header-color);
+  font-weight: var(--fc-unthemed-fc-popover-fc-header-font-weight);
+}
+
+.fc-list-table td {
+  padding: var(--fc-list-table-td-padding);
+}
+
+.mobile-scroll {
+  overflow: var(--mobile-scroll-overflow);
+  position: var(--mobile-scroll-position);
+  top: var(--mobile-scroll-top);
+  bottom: var(--mobile-scroll-bottom);
+  left: var(--mobile-scroll-left);
+  right: var(--mobile-scroll-right);
+}
+
+/* Styling for the Slim Loading Progress Bar container */
+
+.slim-loading-bar {
+  position: var(--slim-loading-bar-position);
+  margin: var(--slim-loading-bar-margin);
+  padding: var( --slim-loading-bar-padding);
+  top: var(--slim-loading-bar-top);
+  left: var(--slim-loading-bar-left);
+  right: var(--slim-loading-bar-right);
+  z-index: var(--slim-loading-bar-z-index);
+}
+
+.top .slim-loading-bar {
+  top: var(--top-slim-loading-bar-top);
+}
+
+/* Styling for the Slim Loading Progress Bar itself */
+
+.slim-loading-bar-progress {
+  margin: var(--slim-loading-bar-progress-margin);
+  padding: var(--slim-loading-bar-progress-padding);
+  z-index: var(--slim-loading-bar-progress-z-index);
+  background-color: var(--slim-loading-bar-progress-background-color) !important;
+  height: var(--slim-loading-bar-progress-height) !important;
+  opacity: var(--slim-loading-bar-progress-opacity);
+  -webkit-transition: var( --slim-loading-bar-progress--webkit-transition);
+  -moz-transition: var(--slim-loading-bar-progress--moz-transition);
+  -o-transition: var(--slim-loading-bar-progress--o-transition);
+  transition: var(--slim-loading-bar-progress-transition);
+}
+
+/* Countdown Timer */
+
+.timer .count-down.medium .digital {
+  font-size: var(--timer-count-down-medium-digital-font-size);
+  color: var(--timer-count-down-medium-digital-color);
+}
+
+/* Ng Datepicker */
+
+.ngb-dp-weekday {
+  color: var(--ngb-dp-weekday-color) !important;
+  font-size: var(--ngb-dp-weekday-font-size);
+  font-weight: var(--ngb-dp-weekday-font-weight);
+  font-style: var(--ngb-dp-weekday-font-style) !important;
+  font-family: var(--font-family-regular);
+}
+
+.btn-light.focus, .btn-light:focus, .ngb-dp-day {
+  outline: var(--btn-light-focus-outline);
+}
+
+.ngb-dp-day, .ngb-dp-week-number {
+  font-family: var(--font-family-regular);
+}
+
+.ngb-dp-header {
+  background-color: var(--ngb-dp-header-background-color)!important;
+}
+
+.ngb-dp-weekdays {
+  background-color: var(--ngb-dp-weekdays-background-color)!important;
+}
+
+.dropdown-menu {
+  border: var(--dropdown-menu-border);
+}
+
+.dropdown-menu:focus {
+  outline: var( --dropdown-menu-focus-outline) !important;
+}
+
+.ngb-dp-week {
+  margin-bottom: var(--ngb-dp-week-margin-bottom) !important;
+}
+
+select {
+  font-size: var(--select-font-size) !important;
+}
+
+/* Tags Input */
+
+.tags-input__tag {
+  padding: var(--tags-input__tag-padding)!important;
+  font-size: var(--tags-input__tag-font-size) !important;
+  margin: var(--tags-input__tag-margin)!important;
+  line-height: var(--tags-input__tag-line-height) !important;
+}
+
+.tags-input__tag-remove-btn {
+  font-size: var( --tags-input__tag-remove-btn-font-size) !important;
+  margin-right: var( --tags-input__tag-remove-btn-margin-right) !important;
+  margin-left: var(--tags-input__tag-remove-btn-margin-left) !important;
+  margin-top: var(--tags-input__tag-remove-btn-margin-top) !important;
+}
+
+/* header */
+
+.header .navbar-nav>li>.dropdown-menu {
+  position: var(--header-navbar-nav-li-dropdown-menu-position);
+}
+
+.dropdown-menu-right.dropdown-menu {
+  right: var(--dropdown-menu-right-dropdown-menu-right) !important;
+  left: var(--dropdown-menu-right-dropdown-menu-left) !important;
+}
+
+/* Sidebar Minified Menu */
+
+.page-sidebar-minified .sidebar .nav li:hover>div>.sub-menu {
+  display: var(--page-sidebar-minified-sidebar-nav-li-hover-div-sub-menu-display);
+  position: var( --page-sidebar-minified-sidebar-nav-li-hover-div-sub-menu-position);
+  margin-left: var(--page-sidebar-minified-sidebar-nav-li-hover-div-sub-menu-margin-left);
+  /* margin-top: var(--page-sidebar-minified-sidebar-nav-li-hover-div-sub-menu-margin-top); */
+  width: var(--page-sidebar-minified-sidebar-nav-li-hover-div-sub-menu-width);
+  background: var( --page-sidebar-minified-sidebar-nav-li-hover-div-sub-menu-background);
+  z-index: var(--page-sidebar-minified-sidebar-nav-li-hover-div-sub-menu-z-index);
+  /* padding: var(--page-sidebar-minified-sidebar-nav-li-hover-div-sub-menu-padding)!important; */
+  min-width: 220px;
+  width: auto;
+  padding: var(--page-sidebar-minified-sidebar-nav-li-hover-div-sub-menu-padding)!important;
+  margin-top: var(--page-sidebar-minified-sidebar-nav-li-hover-div-sub-menu-margin-top)!important;
+}
+
+.page-sidebar-minified .sidebar .nav .sub-menu li {
+  position: var(--page-sidebar-minified-sidebar-nav-sub-menu-li-position);
+}
+
+.page-sidebar-minified .sidebar .nav .sub-menu li:hover>div>.sub-menu {
+  margin: var(--page-sidebar-minified-sidebar-nav-sub-menu-li-hover-div-sub-menu-margin);
+  left: var(--page-sidebar-minified-sidebar-nav-sub-menu-li-hover-div-sub-menu-left);
+  top: var(--page-sidebar-minified-sidebar-nav-sub-menu-li-hover-div-sub-menu-top);
+  position: var(--page-sidebar-minified-sidebar-nav-sub-menu-li-hover-div-sub-menu-position);
+}
+
+.page-sidebar-minified .sidebar .sub-menu li:first-child:before {
+  top: var(--page-sidebar-minified-sidebar-sub-menu-li-first-child-before-top);
+  height: var(--page-sidebar-minified-sidebar-sub-menu-li-first-child-before-height);
+  width: var(--page-sidebar-minified-sidebar-sub-menu-li-first-child-before-width);
+  left: var(--page-sidebar-minified-sidebar-sub-menu-li-first-child-before-left);
+}
+
+.page-sidebar-minified .sidebar .sub-menu li:first-child+li:before {
+  top: var(--page-sidebar-minified-sidebar-sub-menu-li-first-child-li-before-top);
+}
+
+.page-sidebar-minified .sidebar .sub-menu li:first-child+li:last-child:before {
+  height: var(--page-sidebar-minified-sidebar-sub-menu-li-first-child-li-last-child-before-height);
+  bottom: var(--page-sidebar-minified-sidebar-sub-menu-li-first-child-li-last-child-before-bottom);
+}
+
+.page-sidebar-minified .sidebar .nav .sub-menu li a .caret {
+  position: var(--page-sidebar-minified-sidebar-nav-sub-menu-li-a-caret-position);
+  margin: var( --page-sidebar-minified-sidebar-nav-sub-menu-li-a-caret-margin);
+}
+
+.page-sidebar-minified .sidebar .sub-menu li:before {
+  background: var(--page-sidebar-minified-sidebar-sub-menu-li-before-background);
+}
+
+.page-sidebar-minified .sidebar .sub-menu li a:after {
+  background: var(--page-sidebar-minified-sidebar-sub-menu-li-a-after-background);
+}
+
+.page-sidebar-minified .sidebar .sub-menu li.has-sub a:before {
+  background: var(--page-sidebar-minified-sidebar-sub-menu-li-has-sub-a-before-background);
+}
+
+.headerListBand {
+  background-color: var(--headerListBand-background-color)!important;
+  padding: var(--headerListBand-padding)!important;
+  vertical-align: var(--headerListBand-vertical-align);
+  margin-left: var(--headerListBand-margin-left);
+  margin-bottom: var(--headerListBand-margin-bottom);
+  color: var( --headerListBand-color);
+  font-size: var(--headerListBand-font-size)!important;
+}
+
+.textMiddle {
+  margin-top: var(--textMiddle-margin-top)!important;
+  font-size: var(--textMiddle-font-size);
+  color: var(--textMiddle-color);
+}
+
+html, body {
+  height: var(--html-body-height);
+}
+
+body {
+  margin: var(--body-margin);
+}
+
+.mat-sort-header-container {
+  justify-content: var(--mat-sort-header-container-justify-content);
+}
+
+.universe {
+  font-size: var(--universe-font-size);
+  font-weight: var(--universe-font-weight);
+  font-stretch: var(--universe-font-stretch);
+  font-style: var(--universe-font-style);
+  line-height: var(--universe-line-height);
+  letter-spacing: var(--universe-letter-spacing);
+  color: var(--universe-color);
+}
+
+.table-responsive .ps__rail-y {
+  z-index: var(--table-responsive-ps__rail-y-z-index);
+  margin: var(--table-responsive-ps__rail-y-margin);
+}
+
+.ps .ps__rail-x:hover {
+  background: var(--ps-ps__rail-x-hover-background);
+}
+
+.ps .ps__rail-y:hover {
+  background: var(--ps-ps__rail-y-hover-background);
+}
+
+.ps .ps__rail-x:focus {
+  background: var(--ps-ps__rail-x-focus-background);
+}
+
+.ps .ps__rail-y:focus {
+  background: var(--ps-ps__rail-y-focus-background);
+}
+
+.ps .ps__rail-x.ps--clicking {
+  background: var(--ps-ps__rail-x-ps--clicking-background);
+}
+
+.ps .ps__rail-y.ps--clicking {
+  background: var( --ps-ps__rail-y-ps--clicking-background);
+}
+
+.ps__thumb-y {
+  right: var(--ps__thumb-y-right);
+}
+
+.overflow-scroll.height-full:hover .ps__thumb-y {
+  background-color: var(--overflow-scroll-height-full-hover-ps__thumb-y-background-color);
+  z-index: var(--overflow-scroll-height-full-hover-ps__thumb-y-z-index);
+}
+
+.overflow-scroll.height-full:hover .ps__rail-y {
+  z-index: var(--overflow-scroll-height-full-hover-ps__rail-y-z-index);
+}
+
+.sidebarInputField {
+  width: var(--sidebarInputField-width);
+  height: var(--sidebarInputField-height);
+  background: var(--sidebarInputField-background);
+  border-radius: var(--sidebarInputField-border-radius);
+  padding: var(--sidebarInputField-padding);
+  outline: var(--sidebarInputField-outline);
+}
+
+.sidebar .nav li {
+  position: var(--sidebar-nav-li-position);
+}
+
+.scrollMargin .ps__rail-y {
+  margin-top: var(--alarmTable-ps__rail-y-margin-top);
+}
+
+button.swal2-close {
+  outline: var(--button-swal2-close-outline);
+}
+
+.sweatalert-help-block-message {
+  font-size: var(--sweatalert-help-block-message-font-size);
+  padding: var(--sweatalert-help-block-message-padding);
+  text-align: var(--sweatalert-help-block-message-text-align);
+}
+
+.e-ddt.e-popup .e-treeview .e-fullrow {
+  height: var(--e-ddt-e-popup-e-treeview-e-fullrow-height);
+}
+
+.treeelement .e-fullrow {
+  height: var(--treeelement-e-fullrow-height);
+}
+
+div.swal2-container {
+  z-index: var(--div-swal2-container-z-index);
+}
+
+.assetDataPanel .panel-expand .panel-body {
+  border: var(--assetDataPanel-panel-expand-panel-body-border)!important;
+}
+
+.fa-calendar:before {
+  color: var(--fa-calendar-before-color);
+}
+
+/* Assing roles styles starts here */
+
+div.listbox button.btn.btn-primary {
+  background: #1d4458!important;
+  color: white;
+  opacity: 1;
+}
+
+.listbox form.filter input {
+  background: #F3F7F8!important;
+  color: black;
+  border: 1px dashed #348fe2!important;
+}
+
+.listbox .record-picker {
+  background: #F3F7F8!important;
+  color: black;
+  border: 1px dashed #348fe2!important;
+}
+
+.listbox .record-picker li:first-child {
+  border-top: none!important;
+}
+
+.listbox .record-picker li {
+  border-top: 1px dashed #348fe2!important;
+}
+
+.dual-list .button-bar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end
+}
+
+.dual-list .button-bar button {
+  width: 24%!important;
+}
+
+.dual-list .button-bar button:first-child {
+  margin-right: 10px;
+}
+
+.dual-list .filter::after {
+  opacity: 0.6!important;
+  top: -31px!important;
+}
+
+.filter {
+  opacity: 1;
+}
+
+/* Assing roles styles ends here */
+
+.header .navbar-nav>li>a>i.fa.fa-bell {
+  -webkit-animation: ring 10s .7s ease-in-out infinite;
+  -webkit-transform-origin: 50% 4px;
+  -moz-animation: ring 10s .7s ease-in-out infinite;
+  -moz-transform-origin: 50% 4px;
+  animation: ring 10s .7s ease-in-out infinite;
+  transform-origin: 50% 4px;
+}
+
+/* Chrome, firefox, Opera */
+
+@-webkit-keyframes ring {
+  0% {
+    -webkit-transform: rotateZ(0);
+  }
+  1% {
+    -webkit-transform: rotateZ(30deg);
+  }
+  3% {
+    -webkit-transform: rotateZ(-28deg);
+  }
+  5% {
+    -webkit-transform: rotateZ(34deg);
+  }
+  7% {
+    -webkit-transform: rotateZ(-32deg);
+  }
+  9% {
+    -webkit-transform: rotateZ(30deg);
+  }
+  11% {
+    -webkit-transform: rotateZ(-28deg);
+  }
+  13% {
+    -webkit-transform: rotateZ(26deg);
+  }
+  15% {
+    -webkit-transform: rotateZ(-24deg);
+  }
+  17% {
+    -webkit-transform: rotateZ(22deg);
+  }
+  19% {
+    -webkit-transform: rotateZ(-20deg);
+  }
+  21% {
+    -webkit-transform: rotateZ(18deg);
+  }
+  23% {
+    -webkit-transform: rotateZ(-16deg);
+  }
+  25% {
+    -webkit-transform: rotateZ(14deg);
+  }
+  27% {
+    -webkit-transform: rotateZ(-12deg);
+  }
+  29% {
+    -webkit-transform: rotateZ(10deg);
+  }
+  31% {
+    -webkit-transform: rotateZ(-8deg);
+  }
+  33% {
+    -webkit-transform: rotateZ(6deg);
+  }
+  35% {
+    -webkit-transform: rotateZ(-4deg);
+  }
+  37% {
+    -webkit-transform: rotateZ(2deg);
+  }
+  39% {
+    -webkit-transform: rotateZ(-1deg);
+  }
+  41% {
+    -webkit-transform: rotateZ(1deg);
+  }
+  43% {
+    -webkit-transform: rotateZ(0);
+  }
+  100% {
+    -webkit-transform: rotateZ(0);
+  }
+}
+
+/* Firefox */
+
+@-moz-keyframes ring {
+  0% {
+    -moz-transform: rotate(0);
+  }
+  1% {
+    -moz-transform: rotate(30deg);
+  }
+  3% {
+    -moz-transform: rotate(-28deg);
+  }
+  5% {
+    -moz-transform: rotate(34deg);
+  }
+  7% {
+    -moz-transform: rotate(-32deg);
+  }
+  9% {
+    -moz-transform: rotate(30deg);
+  }
+  11% {
+    -moz-transform: rotate(-28deg);
+  }
+  13% {
+    -moz-transform: rotate(26deg);
+  }
+  15% {
+    -moz-transform: rotate(-24deg);
+  }
+  17% {
+    -moz-transform: rotate(22deg);
+  }
+  19% {
+    -moz-transform: rotate(-20deg);
+  }
+  21% {
+    -moz-transform: rotate(18deg);
+  }
+  23% {
+    -moz-transform: rotate(-16deg);
+  }
+  25% {
+    -moz-transform: rotate(14deg);
+  }
+  27% {
+    -moz-transform: rotate(-12deg);
+  }
+  29% {
+    -moz-transform: rotate(10deg);
+  }
+  31% {
+    -moz-transform: rotate(-8deg);
+  }
+  33% {
+    -moz-transform: rotate(6deg);
+  }
+  35% {
+    -moz-transform: rotate(-4deg);
+  }
+  37% {
+    -moz-transform: rotate(2deg);
+  }
+  39% {
+    -moz-transform: rotate(-1deg);
+  }
+  41% {
+    -moz-transform: rotate(1deg);
+  }
+  43% {
+    -moz-transform: rotate(0);
+  }
+  100% {
+    -moz-transform: rotate(0);
+  }
+}
+
+@keyframes ring {
+  0% {
+    transform: rotate(0);
+  }
+  1% {
+    transform: rotate(30deg);
+  }
+  3% {
+    transform: rotate(-28deg);
+  }
+  5% {
+    transform: rotate(34deg);
+  }
+  7% {
+    transform: rotate(-32deg);
+  }
+  9% {
+    transform: rotate(30deg);
+  }
+  11% {
+    transform: rotate(-28deg);
+  }
+  13% {
+    transform: rotate(26deg);
+  }
+  15% {
+    transform: rotate(-24deg);
+  }
+  17% {
+    transform: rotate(22deg);
+  }
+  19% {
+    transform: rotate(-20deg);
+  }
+  21% {
+    transform: rotate(18deg);
+  }
+  23% {
+    transform: rotate(-16deg);
+  }
+  25% {
+    transform: rotate(14deg);
+  }
+  27% {
+    transform: rotate(-12deg);
+  }
+  29% {
+    transform: rotate(10deg);
+  }
+  31% {
+    transform: rotate(-8deg);
+  }
+  33% {
+    transform: rotate(6deg);
+  }
+  35% {
+    transform: rotate(-4deg);
+  }
+  37% {
+    transform: rotate(2deg);
+  }
+  39% {
+    transform: rotate(-1deg);
+  }
+  41% {
+    transform: rotate(1deg);
+  }
+  43% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+
+div.record-picker::-webkit-scrollbar-thumb {
+  background: #afd3f2!important;
+  border: thin solid #6aabe1!important;
+}
+
+/* Menus page - inactive menu text color become light than the other */
+
+.mat-tree-node .mat-icon-button.inactive>span {
+  color: #aeacac!important;
+}
+
+.rackMonitor .control-section+svg {
+  display: none
+}

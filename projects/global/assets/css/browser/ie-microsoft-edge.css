@@ -1,0 +1,19 @@
+/* Internet Explorer 10-11 */
+
+.sidebar :-ms-input-placeholder {
+    color: var(--sidebar-search-field-icon-as-placeholder-microsoft);
+}
+
+/* Microsoft Edge */
+
+.sidebar ::-ms-input-placeholder {
+    color: var(--sidebar-search-field-icon-as-placeholder-microsoft);
+}
+
+input.sidebarInput:-ms-input-placeholder {
+    font-weight: 600 !important;
+}
+
+input.sidebarInput::-ms-input-placeholder {
+    font-weight: 600 !important;
+}

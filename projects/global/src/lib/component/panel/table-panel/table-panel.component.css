@@ -1,0 +1,15 @@
+.panel-body{
+    padding: 0px;
+}
+.panel{
+    margin-bottom:0px;
+}
+.panel.panel-expand{
+    overflow: hidden;
+}
+div.panel-inverse{
+    border: none!important;
+}
+.cdk-overlay-container{
+    z-index: 99999!important;
+}
